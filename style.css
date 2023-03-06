@@ -1,0 +1,205 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 16px;
+    border: 1px solid black;
+   
+}
+
+.row{
+    margin: 0 -16px;
+    display: flex;
+    padding: 16px 0;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+.header{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: whitesmoke;
+}
+.header_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.header_logo{
+ display: flex;
+ align-items: center;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+}
+
+.header_nav ul{
+    display: flex;
+    align-items: center; 
+}
+
+.header_nav li{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 2rem;
+    color: #183B56;
+    font-style: normal;
+    align-items: center;    
+}
+
+.header_div a{
+    text-decoration: none;
+    color: #183B56;
+}
+
+.header_btn{
+    display: flex;
+    align-items: center;
+}
+
+.header_btn a{
+    border: 1px solid #1565D8;
+    padding: 0.5rem;
+    margin-right: 0rem;
+    width: max-content;
+    border-radius: 8px;
+}
+
+
+/* css for section 1 */
+.section1{
+    margin-top: 3%;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1_head1{
+    padding: 0 3rem;
+    margin-top: 5rem;
+}
+
+.s1_head1 h1{
+    
+    font-size: 3rem;
+    width: 72%;
+    color: #183B56;
+}
+
+.s1_head1 p{
+    margin-top: 3%;
+    font-size: 1rem;
+    width: 50%;
+    color: #183B56;
+}
+
+.s1_btn{
+    display: flex;
+    align-items: center;
+}
+
+.s1_btn a{
+    display: flex;
+    text-decoration: none;
+    border:1px solid  #183B56 ;
+    background-color:  #183B56;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 3%;
+    padding: 0.7rem;
+}
+
+.s1_icon{
+    margin-top: 4%;
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.s1_icon{
+    justify-content: center;
+}
+
+/* css for section 2 */
+.section2{
+    margin-top: 5%;
+}
+
+.col2{
+    width: calc(93%/2);
+    padding: 0 1rem;
+
+}
+
+.sec2_content1 p{
+    font-size: 3.5rem;
+    color: #183B56;
+}
+
+.sec2_content2 p{
+    font-size: 20px;
+}
+
+
+.col3{
+    width: calc(100%/5);
+    padding: 0 1rem;
+}
+
+/* css for section3 */
+
+.section3{
+    margin-top: 5%;
+}
+
+.col4{
+    width: calc(100%/2);
+    padding: 0 1rem;
+}
+
+.col4 p{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.col4 .p2{
+
+    font-weight: 800;
+}
+
+
+/* css for section 4 */
+
+.col5{
+    width: calc(92%/3);
+    padding: 1rem 1rem;
+}
+
+.card{
+
+    display: flex;
+    gap:20px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 1px 1px 1px 5px lightgray;
+}
