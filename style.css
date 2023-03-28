@@ -10,7 +10,7 @@
     width: 1170px;
     margin: 0 auto;
     padding: 0 16px;
-    border: 1px solid black;
+   
    
 }
 
@@ -19,7 +19,7 @@
     display: flex;
     padding: 16px 0;
     flex-wrap: wrap;
-    border: 1px solid red;
+   
 }
 
 .header{
@@ -277,4 +277,107 @@
 
 .sec8_card{
     padding: 1rem 0;
+}
+
+/* css for section9 */
+
+.section9{
+    margin-top: 5%;
+    background-color: aqua;
+}
+
+.sec9_data1{
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.sec9_data1 h1{
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+.sec9_data2{
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.sec9_data2 p{
+    color: aliceblue;
+    font-size: 1.4rem;
+}
+
+.sec9_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.sec9_btn a{
+    display: flex;
+    text-decoration: none;
+    border:1px solid  #183B56 ;
+    background-color:  white;
+    font-weight: 900;
+    color: #183B56;
+    border-radius: 5px;
+    margin-top: 3%;
+    padding: 0.7rem;
+}
+
+/* css for footer */
+.footer{
+    
+    background-color: #183B56;
+    padding-top: 5rem;
+}
+.footerCard{
+    margin: 10px 16px;
+    
+
+}
+
+.text{
+    
+    color: #b1bccc;
+    font-size: 20px;
+    
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
+.socialmedia img{
+    width: 20px;
+    height: 20px;
+}
+
+.footerCard label{
+    font-size: 24px;
+    font-weight: 700;
+    color: #5A7184;
+}
+
+.footerCard a{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.footerCard li{
+    margin-top: 1.5rem;
+}
+.copyright{
+    text-align: center;
+    margin-top: 3rem;
+}
+.heart{
+    color: white;
+    background-color:#1565D8;
+    display:inline-block;
+    padding: 1rem;
+    border-radius: 50%;
+    
+
 }
